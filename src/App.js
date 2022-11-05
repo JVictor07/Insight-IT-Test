@@ -64,7 +64,7 @@ const App = () => {
             type="phone"
             as={InputMask}
             mask={"(99) 99999-9999"}
-            placeholder="Ex: Francisco"
+            placeholder="Ex: 90000-0000"
             {...register("phone", { required: "O telefone é obrigatório" })}
           />
           {errors.phone && (
